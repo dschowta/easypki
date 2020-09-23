@@ -28,10 +28,10 @@ import (
 
 	"encoding/pem"
 
-	"github.com/codegangsta/cli"
-	"github.com/google/easypki/pkg/certificate"
-	"github.com/google/easypki/pkg/easypki"
-	"github.com/google/easypki/pkg/store"
+	"github.com/urfave/cli"
+	"github.com/dschowta/easypki/certificate"
+	"github.com/dschowta/easypki"
+	"github.com/dschowta/easypki/store"
 )
 
 const (
